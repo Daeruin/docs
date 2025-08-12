@@ -4,6 +4,8 @@ description: 'Add image, video, and other HTML elements'
 icon: 'image'
 ---
 
+Added id to image
+
 <img
   style={{ borderRadius: '0.5rem' }}
   src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
@@ -63,7 +65,7 @@ Loads another HTML page within the document. Most commonly used for embedding vi
 
 ### Frames
 
-Added src content
+Added id
 
 <Frame caption="Caption">
   <img
@@ -72,8 +74,10 @@ Added src content
   />
 </Frame>
 
+Used real image reference
+
 :::{figure,myclass} markdown-fig
-<img src="../images/fun-fish.png" alt="fishy" class="bg-primary mb-1" width="200px">
+<img src="https://mintlify-assets.b-cdn.net/bigbend.jpg" alt="fishy" class="bg-primary mb-1" width="200px">
 
 This is a caption in **Markdown**!
 :::
