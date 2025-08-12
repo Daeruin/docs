@@ -14,7 +14,9 @@ Added id to image
 
 ## Image
 
-Here's a link to the frames section: [Link to frames](#frames)
+Changed link destination to image
+
+Here's a link to the frames section: [Link to new image](#asdfhgkjl)
 
 ### Using Markdown
 
@@ -25,6 +27,19 @@ The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets y
 ```
 
 Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
+
+### Frames
+
+Changed caption
+
+<Frame caption="This is an image of Big Bend">
+  <img
+    src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
+    id="asdfhgkjl"
+  />
+</Frame>
+
+Removed MyST img
 
 ### Using embeds
 
@@ -62,16 +77,3 @@ Loads another HTML page within the document. Most commonly used for embedding vi
 ```html
 <iframe src="https://www.youtube.com/embed/4KzFe50RQkQ"> </iframe>
 ```
-
-### Frames
-
-Added id
-
-<Frame caption="Caption">
-  <img
-    src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
-    id="asdfhgkjl"
-  />
-</Frame>
-
-Removed MyST img
