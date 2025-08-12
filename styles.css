@@ -1,8 +1,8 @@
 /* initialise the counter */
 body { counter-reset: figureCounter; }
 /* increment the counter for every instance of a figure even if it doesn't have a caption */
-figure { counter-increment: figureCounter; }
+div[data-component-part="frame-caption"] { counter-increment: figureCounter; }
 /* prepend the counter to the figcaption content */
-figure figcaption:before {
+div[data-component-part="frame-caption"] p:before {
     content: "Fig " counter(figureCounter) ": "
 }
