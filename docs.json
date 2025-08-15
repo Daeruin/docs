@@ -9,106 +9,30 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Anchor 1",
-          "href": "https://mintlify.com/docs"
-        }
-      ]
-    },
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Tab 1",
-        "groups": [
-          {
-            "group": "Group 1",
-            "pages": [
-              "development",
-              "another-folder/file-2",
-              "just-a-file"
-            ]
-          },
-          {
-            "group": "Group 2",
-            "pages": [
-              "some-folder/file-3",
-              "another-folder/file-4",
-              "just-another-file",
-              {
-                "group": "Group 3",
-                "pages": [
-                  "file-5",
-                  {
-                    "group": "Group 4",
-                    "pages": [
-                      "file-7",
-                      "file-8",
-                      "file-9"
-                    ]
-                  },
-                  "file-6"
-                ]
-              }
-            ]
-          }
+        "dropdown": "Documentation",
+        "icon": "book-open",
+        "pages": [
+          "quickstart",
+          "development",
+          "navigation"
         ]
       },
       {
-        "tab": "Tab 2",
-        "groups": [
-          {
-            "group": "Group 3",
-            "pages": [
-              "quickstart",
-              "various-different-folders/file-2",
-              "another-file"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Developer tools",
+        "dropdown": "API reference",
         "icon": "square-terminal",
-        "menu": [
-          {
-            "item": "API reference",
-            "icon": "rocket",
-            "description": "API reference documentation.",
-            "groups": [
-              {
-                "group": "Core endpoints",
-                "icon": "square-terminal",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete"
-                ]
-              },
-              {
-                "group": "Supplementary endpoints",
-                "icon": "square-terminal",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete"
-                ]
-              }
-            ]
-          },
-          {
-            "item": "SDKs",
-            "icon": "code",
-            "description": "SDKs are used to interact with the API.",
-            "pages": [
-              "sdk/fetch",
-              "sdk/create",
-              "sdk/delete"
-            ]
-          }
+        "pages": [
+          "api-reference/get",
+          "api-reference/post",
+          "api-reference/delete"
         ]
-      }    ]
-  },
+      },
+      {
+        "dropdown": "Blog",
+        "href": "https://external-link.com/blog"
+      }
+    ]  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
