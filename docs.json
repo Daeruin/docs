@@ -33,16 +33,11 @@
           {
             "item": "More Stuff",
             "icon": "car",
-            "groups": [
-              {
-                "group": "Random content",
-                "icon": "square-terminal",
-                "pages": [
-                  "index",
-                  "essentials/settings",
-                  "ai-tools/windsurf"
-                ]
-              }
+            "description": "This is more stuff",
+            "pages": [
+              "index",
+              "essentials/settings",
+              "ai-tools/windsurf"
             ]
           }
         ]
