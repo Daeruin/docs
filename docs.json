@@ -20,19 +20,35 @@
         ]
       },
       {
-        "dropdown": "API reference",
-        "icon": "square-terminal",
-        "pages": [
-          "api-reference/endpoint/get",
-          "api-reference/endpoint/post",
-          "api-reference/endpoint/delete"
-        ]
-      },
-      {
         "dropdown": "Blog",
-        "href": "https://ddn.com/blog"
+        "tabs": [
+          {
+            "tab": "API reference",
+            "icon": "square-terminal",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete"
+            ]
+          },
+          {
+            "tab": "SDKs",
+            "icon": "code",
+            "pages": [
+              "sdk/fetch",
+              "sdk/create",
+              "sdk/delete"
+            ]
+          },
+          {
+            "tab": "Blog",
+            "icon": "newspaper",
+            "href": "https://external-link.com/blog"
+          }
+        ]
       }
-    ]  },
+    ]
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
