@@ -13,10 +13,38 @@
       {
         "tab": "Infinia",
         "icon": "square-terminal",
-        "pages": [
-          "index",
-          "essentials/settings",
-          "ai-tools/windsurf"
+        "menu": [
+          {
+            "item": "Stuff",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "Writing content",
+                "icon": "square-terminal",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/reusable-snippets"
+                ]
+              }
+            ]
+          },
+          {
+            "item": "More Stuff",
+            "icon": "car",
+            "groups": [
+              {
+                "group": "Random content",
+                "icon": "square-terminal",
+                "pages": [
+                  "index",
+                  "essentials/settings",
+                  "ai-tools/windsurf"
+                ]
+              }
+            ]
+          }
         ]
       },
       {
