@@ -15,8 +15,8 @@
         "icon": "square-terminal",
         "pages": [
           "index",
-          "quickstart",
-          "development"
+          "essentials/settings",
+          "ai-tools/windsurf"
         ]
       },
       {
