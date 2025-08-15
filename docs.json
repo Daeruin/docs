@@ -17,6 +17,7 @@
           {
             "item": "Stuff",
             "icon": "rocket",
+            "description": "This is stuff",
             "groups": [
               {
                 "group": "Writing content",
@@ -42,10 +43,25 @@
             "item": "More Stuff",
             "icon": "car",
             "description": "This is more stuff",
-            "pages": [
-              "index",
-              "essentials/settings",
-              "ai-tools/windsurf"
+            "groups": [
+              {
+                "group": "Writing content",
+                "icon": "square-terminal",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code",
+                  "essentials/images",
+                  "essentials/reusable-snippets"
+                ]
+              },
+              {
+                "group": "Other content",
+                "icon": "square-terminal",
+                "pages": [
+                  "one",
+                  "two"
+                ]
+              }
             ]
           }
         ]
