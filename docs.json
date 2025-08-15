@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "DDN Documentation",
   "colors": {
     "primary": "#D71612",
     "light": "#F04E23",
@@ -11,114 +11,27 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Infinia",
-        "icon": "square-terminal",
-        "menu": [
+        "tab": "Tab 1",
+        "groups": [
           {
-            "item": "Stuff",
-            "icon": "rocket",
-            "description": "This is stuff",
-            "groups": [
-              {
-                "group": "Writing content",
-                "icon": "square-terminal",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "Other content",
-                "icon": "square-terminal",
-                "pages": [
-                  "one",
-                  "two"
-                ]
-              }
-            ]
-          },
-          {
-            "item": "More Stuff",
-            "icon": "car",
-            "description": "This is more stuff",
-            "groups": [
-              {
-                "group": "Writing content",
-                "icon": "square-terminal",
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "Other content",
-                "icon": "square-terminal",
-                "pages": [
-                  "one",
-                  "two"
-                ]
-              }
+            "group": "Group 1",
+            "pages": [
+              "some-folder/file-1",
+              "another-folder/file-2",
+              "just-a-file"
             ]
           }
         ]
       },
       {
-        "tab": "Guides",
+        "tab": "Tab 2",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Group 2",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "some-other-folder/file-1",
+              "various-different-folders/file-2",
+              "another-file"
             ]
           }
         ]
