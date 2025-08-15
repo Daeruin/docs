@@ -51,9 +51,19 @@
           {
             "item": "API reference",
             "icon": "rocket",
+            "description": "API reference documentation.",
             "groups": [
               {
                 "group": "Core endpoints",
+                "icon": "square-terminal",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              },
+              {
+                "group": "Supplementary endpoints",
                 "icon": "square-terminal",
                 "pages": [
                   "api-reference/endpoint/get",
