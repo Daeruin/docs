@@ -27,6 +27,14 @@
                   "essentials/images",
                   "essentials/reusable-snippets"
                 ]
+              },
+              {
+                "group": "Other content",
+                "icon": "square-terminal",
+                "pages": [
+                  "one",
+                  "two"
+                ]
               }
             ]
           },
