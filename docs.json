@@ -11,6 +11,15 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Infinia",
+        "icon": "square-terminal",
+        "pages": [
+          "index",
+          "quickstart",
+          "development"
+        ]
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
