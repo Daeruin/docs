@@ -23,14 +23,14 @@
         "dropdown": "API reference",
         "icon": "square-terminal",
         "pages": [
-          "api-reference/get",
-          "api-reference/post",
-          "api-reference/delete"
+          "api-reference/endpoint/get",
+          "api-reference/endpoint/post",
+          "api-reference/endpoint/delete"
         ]
       },
       {
         "dropdown": "Blog",
-        "href": "https://external-link.com/blog"
+        "href": "https://ddn.com/blog"
       }
     ]  },
   "logo": {
