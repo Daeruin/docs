@@ -16,7 +16,7 @@
           {
             "group": "Group 1",
             "pages": [
-              "some-folder/file-1",
+              "development",
               "another-folder/file-2",
               "just-a-file"
             ]
@@ -43,8 +43,38 @@
             ]
           }
         ]
-      }
-    ]
+      },
+      {
+        "tab": "Developer tools",
+        "icon": "square-terminal",
+        "menu": [
+          {
+            "item": "API reference",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "Core endpoints",
+                "icon": "square-terminal",
+                "pages": [
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete"
+                ]
+              }
+            ]
+          },
+          {
+            "item": "SDKs",
+            "icon": "code",
+            "description": "SDKs are used to interact with the API.",
+            "pages": [
+              "sdk/fetch",
+              "sdk/create",
+              "sdk/delete"
+            ]
+          }
+        ]
+      }    ]
   },
   "logo": {
     "light": "/logo/light.svg",
