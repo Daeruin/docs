@@ -15,7 +15,7 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["v1/overview", "v1/quickstart", "v1/development"]
+            "pages": ["/v1/overview", "/v1/quickstart", "/v1/development"]
           }
         ]
       },
@@ -24,7 +24,7 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
+            "pages": ["/v2/overview", "/v2/quickstart", "/v2/development"]
           }
         ]
       }
