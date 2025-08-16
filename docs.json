@@ -21,28 +21,27 @@
       },
       {
         "dropdown": "Blog",
-        "tabs": [
+        "anchors": [
           {
-            "tab": "API reference",
+            "anchor": "Documentation",
+            "icon": "book-open",
+            "pages": [
+              "quickstart",
+              "development",
+              "navigation"
+            ]
+          },
+          {
+            "anchor": "API reference",
             "icon": "square-terminal",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "api-reference/get",
+              "api-reference/create",
+              "api-reference/delete"
             ]
           },
           {
-            "tab": "SDKs",
-            "icon": "code",
-            "pages": [
-              "sdk/fetch",
-              "sdk/create",
-              "sdk/delete"
-            ]
-          },
-          {
-            "tab": "Blog",
-            "icon": "newspaper",
+            "anchor": "Blog",
             "href": "https://external-link.com/blog"
           }
         ]
