@@ -20,29 +20,30 @@
         ]
       },
       {
-        "dropdown": "Blog",
+        "dropdown": "Stuff",
         "anchors": [
-          {
-            "anchor": "Documentation",
-            "icon": "book-open",
-            "pages": [
-              "quickstart",
-              "development",
-              "navigation"
-            ]
-          },
           {
             "anchor": "API reference",
             "icon": "square-terminal",
             "pages": [
-              "api-reference/get",
-              "api-reference/create",
-              "api-reference/delete"
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete"
+            ]
+          },
+          {
+            "anchor": "SDKs",
+            "icon": "code",
+            "pages": [
+              "sdk/fetch",
+              "sdk/create",
+              "sdk/delete"
             ]
           },
           {
             "anchor": "Blog",
-            "href": "https://external-link.com/blog"
+            "icon": "newspaper",
+            "href": "https://ddn.com/blog"
           }
         ]
       }
