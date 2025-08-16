@@ -9,41 +9,22 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "dropdowns": [
+    "versions": [
       {
-        "dropdown": "Documentation",
-        "icon": "book-open",
-        "pages": [
-          "quickstart",
-          "development",
-          "navigation"
+        "version": "1.0.0",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": ["v1/overview", "v1/quickstart", "v1/development"]
+          }
         ]
       },
       {
-        "dropdown": "Stuff",
-        "anchors": [
+        "version": "2.0.0",
+        "groups": [
           {
-            "anchor": "API reference",
-            "icon": "square-terminal",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          },
-          {
-            "anchor": "SDKs",
-            "icon": "code",
-            "pages": [
-              "sdk/fetch",
-              "sdk/create",
-              "sdk/delete"
-            ]
-          },
-          {
-            "anchor": "Blog",
-            "icon": "newspaper",
-            "href": "https://ddn.com/blog"
+            "group": "Getting started",
+            "pages": ["v2/overview", "v2/quickstart", "v2/development"]
           }
         ]
       }
