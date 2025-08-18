@@ -9,24 +9,28 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "versions": [
+    "anchors": [
       {
-        "version": "1.0.0",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": ["product-a/v1/overview", "product-a/v1/quickstart", "product-a/v1/development"]
-          }
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "pages": [
+          "overview",
+          "quickstart",
+          "development"
         ]
       },
       {
-        "version": "2.0.0",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": ["product-a/v2/overview", "product-a/v2/quickstart", "product-a/v2/development"]
-          }
+        "anchor": "API reference",
+        "icon": "square-terminal",
+        "pages": [
+          "api-reference/get",
+          "api-reference/create",
+          "api-reference/delete"
         ]
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://external-link.com/blog"
       }
     ]
   },
