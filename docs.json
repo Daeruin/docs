@@ -9,28 +9,22 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "Documentation",
-        "icon": "book-open",
-        "pages": [
-          "overview",
-          "quickstart",
-          "development"
-        ]
-      },
-      {
-        "anchor": "API reference",
+        "tab": "Mintlify",
         "icon": "square-terminal",
         "pages": [
-          "api-reference/get",
-          "api-reference/create",
-          "api-reference/delete"
+          "mintlify/overview",
+          "mintlify/quickstart",
+          "mintlify/development"
         ]
       },
       {
-        "anchor": "Blog",
-        "href": "https://external-link.com/blog"
+        "tab": "Infinia",
+        "icon": "code",
+        "pages": [
+          "infinia/intro"
+        ]
       }
     ]
   },
