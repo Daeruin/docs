@@ -22,8 +22,13 @@
       {
         "tab": "Infinia",
         "icon": "code",
-        "pages": [
-          "infinia/intro"
+        "versions": [
+          {
+            "version": "2.2",
+            "pages": [
+              "infinia/2.2/intro"
+            ]
+          }
         ]
       }
     ]
