@@ -28,6 +28,12 @@
             "pages": [
               "infinia/2.2/intro"
             ]
+          },
+                    {
+            "version": "2.3",
+            "pages": [
+              "infinia/2.3/intro"
+            ]
           }
         ]
       }
