@@ -12,7 +12,7 @@
     "tabs": [
       {
         "tab": "Infinia",
-        "icon": "code",
+        "icon": "robot",
         "versions": [
           {
             "version": "2.3",
@@ -20,7 +20,7 @@
               {
                 "group": "Overview",
                 "pages": [
-                  "infinia/2.3/overview/infinia-description2",
+                  "infinia/2.3/overview/infinia-description2-3",
                   "infinia/2.3/overview/infinia-architecture",
                   "infinia/2.3/overview/infinia-components"
                 ]
@@ -103,8 +103,20 @@
         ]
       },
       {
+        "tab": "EXAScaler",
+        "icon": "rocket",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "exascaler/exascaler-overview"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Mintlify",
-        "icon": "square-terminal",
+        "icon": "leaf",
         "pages": [
           "mintlify/overview",
           "mintlify/quickstart",
