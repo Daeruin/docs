@@ -117,17 +117,51 @@
       {
         "tab": "Mintlify",
         "icon": "leaf",
-        "pages": [
-          "mintlify/overview",
-          "mintlify/quickstart",
-          "mintlify/development"
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "mintlify/overview",
+              "mintlify/quickstart",
+              "mintlify/development"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "mintlify/essentials/markdown",
+              "mintlify/essentials/code",
+              "mintlify/essentials/images",
+              "mintlify/essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "AI Tools",
+            "pages": [
+              "mintlify/ai-tools/cursor",
+              "mintlify/ai-tools/windsurf",
+              "mintlify/ai-tools/claude-code"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "mintlify/api-reference/introduction"
+            ]
+          },
+          {
+            "group": "SDK",
+            "pages": [
+              "mintlify/sdk/fetch"
+            ]
+          }
         ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "logo/light.svg",
+    "dark": "logo/dark.svg"
   },
   "navbar": {
     "links": [
