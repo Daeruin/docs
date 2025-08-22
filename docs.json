@@ -68,8 +68,45 @@
           },
           {
             "version": "2.3",
-            "pages": [
-              "infinia/2.3/intro"
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "infinia/2.3/overview/infinia-description",
+                  "infinia/2.3/overview/infinia-architecture",
+                  "infinia/2.3/overview/infinia-components"
+                ]
+              },
+              {
+                "group": "Installation",
+                "pages": [
+                  "infinia/2.3/installation/requirements",
+                  "infinia/2.3/installation/high-availability",
+                  "infinia/2.3/installation/installation",
+                  "infinia/2.3/installation/upgrade"
+                ]
+              },
+              {
+                "group": "Administration",
+                "pages": [
+                  "infinia/2.3/administration/block",
+                  "infinia/2.3/administration/s3"
+                ]
+              },
+              {
+                "group": "Reference",
+                "pages": [
+                  "infinia/2.3/reference/cli-reference",
+                  "infinia/2.3/reference/api-reference"
+                ]
+              },
+              {
+                "group": "Monitoring",
+                "pages": [
+                  "infinia/2.3/monitoring/monitoring",
+                  "infinia/2.3/monitoring/troubleshooting"
+                ]
+              }
             ]
           }
         ]
