@@ -26,19 +26,19 @@
           {
             "version": "2.2",
             "pages": [
-              "infinia/2.2/overview/infinia-description.mdx",
-              "infinia/2.2/overview/infinia-architecture.mdx",
-              "infinia/2.2/overview/infinia-components.mdx",
-              "infinia/2.2/installation/requirements.mdx",
-              "infinia/2.2/installation/high-availability.mdx",
-              "infinia/2.2/installation/installation.mdx",
-              "infinia/2.2/installation/upgrade.mdx",
-              "infinia/2.2/administration/block.mdx",
-              "infinia/2.2/administration/s3.mdx",
-              "infinia/2.2/reference/cli-reference.mdx",
-              "infinia/2.2/reference/api-reference.mdx",
-              "infinia/2.2/monitoring/monitoring.mdx",
-              "infinia/2.2/monitoring/troubleshooting.mdx"
+              "infinia/2.2/overview/infinia-description",
+              "infinia/2.2/overview/infinia-architecture",
+              "infinia/2.2/overview/infinia-components",
+              "infinia/2.2/installation/requirements",
+              "infinia/2.2/installation/high-availability",
+              "infinia/2.2/installation/installation",
+              "infinia/2.2/installation/upgrade",
+              "infinia/2.2/administration/block",
+              "infinia/2.2/administration/s3",
+              "infinia/2.2/reference/cli-reference",
+              "infinia/2.2/reference/api-reference",
+              "infinia/2.2/monitoring/monitoring",
+              "infinia/2.2/monitoring/troubleshooting"
             ]
           },
           {
