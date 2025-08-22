@@ -20,7 +20,7 @@
               {
                 "group": "Overview",
                 "pages": [
-                  "infinia/2.3/overview/infinia-description2-3",
+                  "infinia/2.3/overview/infinia-description",
                   "infinia/2.3/overview/infinia-architecture",
                   "infinia/2.3/overview/infinia-components"
                 ]
@@ -28,7 +28,6 @@
               {
                 "group": "Installation",
                 "pages": [
-                  "infinia/2.3/overview/infinia-description2-3",
                   "infinia/2.3/installation/requirements",
                   "infinia/2.3/installation/high-availability",
                   "infinia/2.3/installation/installation",
@@ -65,7 +64,6 @@
                 "group": "Overview",
                 "pages": [
                   "infinia/2.2/overview/infinia-description",
-                  "infinia/2.3/overview/infinia-description2-3",
                   "infinia/2.2/overview/infinia-architecture",
                   "infinia/2.2/overview/infinia-components"
                 ]
@@ -111,8 +109,7 @@
           {
             "group": "Overview",
             "pages": [
-              "exascaler/exascaler-overview",
-              "infinia/2.3/overview/infinia-description2-3"
+              "exascaler/exascaler-overview"
             ]
           }
         ]
