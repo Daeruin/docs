@@ -28,6 +28,7 @@
               {
                 "group": "Installation",
                 "pages": [
+                  "infinia/2.3/overview/infinia-description2-3",
                   "infinia/2.3/installation/requirements",
                   "infinia/2.3/installation/high-availability",
                   "infinia/2.3/installation/installation",
