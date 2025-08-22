@@ -146,8 +146,13 @@
           {
             "group": "API Reference",
             "pages": [
-              "mintlify/api-reference/introduction"
-            ]
+              "mintlify/api-reference/introduction",
+              "mintlify/api-reference/endpoint/get",
+              "mintlify/api-reference/endpoint/create",
+              "mintlify/api-reference/endpoint/webhook",
+              "mintlify/api-reference/endpoint/delete"
+            ],
+            "openapi": "mintlify/api-reference/openapi.json"
           },
           {
             "group": "SDK",
