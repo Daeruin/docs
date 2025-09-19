@@ -54,6 +54,9 @@
                   "infinia/2.3/monitoring/monitoring",
                   "infinia/2.3/monitoring/troubleshooting"
                 ]
+              },
+              {
+                "openapi": "infinia/2.3/redapi-2.yaml"
               }
             ]
           },
@@ -97,9 +100,6 @@
                   "infinia/2.2/monitoring/monitoring",
                   "infinia/2.2/monitoring/troubleshooting"
                 ]
-              },
-              {
-                "openapi": "infinia/2.2/redapi-2.yaml"
               }
             ]
           }
